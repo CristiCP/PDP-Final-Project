@@ -1,21 +1,21 @@
-2025-01-06T02:52:51.465+02:00  INFO 13944 --- [superbet-service] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.2 with PID 13944 (C:\Users\crist\Downloads\demo\demo\target\classes started by Cristi in C:\Users\crist\Downloads\demo\demo)
-2025-01-06T02:52:51.483+02:00  INFO 13944 --- [superbet-service] [main] com.example.demo.DemoApplication         : The following 1 profile is active: "superbet"
-2025-01-06T02:52:52.400+02:00  INFO 13944 --- [superbet-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-01-06T02:52:52.430+02:00  INFO 13944 --- [superbet-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
-2025-01-06T02:52:53.125+02:00  INFO 13944 --- [superbet-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
-2025-01-06T02:52:53.147+02:00  INFO 13944 --- [superbet-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-01-06T02:52:53.147+02:00  INFO 13944 --- [superbet-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
-2025-01-06T02:52:53.244+02:00  INFO 13944 --- [superbet-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-01-06T02:52:53.245+02:00  INFO 13944 --- [superbet-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1691 ms
-2025-01-06T02:52:53.443+02:00  INFO 13944 --- [superbet-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-01-06T02:52:53.533+02:00  INFO 13944 --- [superbet-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
-2025-01-06T02:52:53.583+02:00  INFO 13944 --- [superbet-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-01-06T02:52:53.951+02:00  INFO 13944 --- [superbet-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-01-06T02:52:54.001+02:00  INFO 13944 --- [superbet-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-01-06T02:52:54.235+02:00  INFO 13944 --- [superbet-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27896d3b
-2025-01-06T02:52:54.238+02:00  INFO 13944 --- [superbet-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-01-06T02:52:54.306+02:00  WARN 13944 --- [superbet-service] [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
-2025-01-06T02:52:54.332+02:00  INFO 13944 --- [superbet-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-01-11T18:35:26.640+02:00  INFO 13864 --- [superbet-service] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.2 with PID 13864 (C:\Users\crist\Downloads\demo\demo\target\classes started by Cristi in C:\Users\crist\Downloads\demo\demo)
+2025-01-11T18:35:26.717+02:00  INFO 13864 --- [superbet-service] [main] com.example.demo.DemoApplication         : The following 1 profile is active: "superbet"
+2025-01-11T18:35:28.590+02:00  INFO 13864 --- [superbet-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-11T18:35:28.680+02:00  INFO 13864 --- [superbet-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 0 JPA repository interfaces.
+2025-01-11T18:35:30.164+02:00  INFO 13864 --- [superbet-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-01-11T18:35:30.224+02:00  INFO 13864 --- [superbet-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-11T18:35:30.224+02:00  INFO 13864 --- [superbet-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-11T18:35:30.396+02:00  INFO 13864 --- [superbet-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-11T18:35:30.397+02:00  INFO 13864 --- [superbet-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3523 ms
+2025-01-11T18:35:30.844+02:00  INFO 13864 --- [superbet-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-11T18:35:31.035+02:00  INFO 13864 --- [superbet-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-11T18:35:31.132+02:00  INFO 13864 --- [superbet-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-11T18:35:31.952+02:00  INFO 13864 --- [superbet-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-11T18:35:32.042+02:00  INFO 13864 --- [superbet-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-11T18:35:32.807+02:00  INFO 13864 --- [superbet-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@701d2b59
+2025-01-11T18:35:32.824+02:00  INFO 13864 --- [superbet-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-11T18:35:33.009+02:00  WARN 13864 --- [superbet-service] [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-01-11T18:35:33.109+02:00  INFO 13864 --- [superbet-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 5.5.5
@@ -23,14 +23,14 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-01-06T02:52:54.722+02:00  INFO 13944 --- [superbet-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-01-06T02:52:54.731+02:00  INFO 13944 --- [superbet-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-01-06T02:52:55.150+02:00  WARN 13944 --- [superbet-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-01-06T02:52:55.642+02:00  INFO 13944 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
-2025-01-06T02:52:55.659+02:00  INFO 13944 --- [superbet-service] [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-2025-01-06T02:52:55.659+02:00  INFO 13944 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
-2025-01-06T02:52:55.661+02:00  INFO 13944 --- [superbet-service] [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
-2025-01-06T02:52:55.663+02:00  INFO 13944 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+2025-01-11T18:35:34.292+02:00  INFO 13864 --- [superbet-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-11T18:35:34.316+02:00  INFO 13864 --- [superbet-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-11T18:35:35.335+02:00  WARN 13864 --- [superbet-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-11T18:35:36.205+02:00  INFO 13864 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2025-01-11T18:35:36.226+02:00  INFO 13864 --- [superbet-service] [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-01-11T18:35:36.227+02:00  INFO 13864 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2025-01-11T18:35:36.229+02:00  INFO 13864 --- [superbet-service] [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2025-01-11T18:35:36.232+02:00  INFO 13864 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -38,29 +38,622 @@
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-2025-01-06T02:52:55.663+02:00  INFO 13944 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
-2025-01-06T02:52:55.664+02:00  INFO 13944 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
-2025-01-06T02:52:55.664+02:00  INFO 13944 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6ae32ff0
-2025-01-06T02:52:55.765+02:00  INFO 13944 --- [superbet-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
-2025-01-06T02:52:55.770+02:00  INFO 13944 --- [superbet-service] [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
-2025-01-06T02:52:55.867+02:00  INFO 13944 --- [superbet-service] [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#6f6f65a4:0/SimpleConnection@6765b6a2 [delegate=amqp://guest@127.0.0.1:5672/, localPort=65161]
-2025-01-06T02:52:55.897+02:00  INFO 13944 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (superbetQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
-2025-01-06T02:52:55.897+02:00  INFO 13944 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (unibetQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
-2025-01-06T02:52:55.898+02:00  INFO 13944 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (unibetResponseQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
-2025-01-06T02:52:55.954+02:00  INFO 13944 --- [superbet-service] [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
-2025-01-06T02:52:55.955+02:00  INFO 13944 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
-2025-01-06T02:52:55.963+02:00  INFO 13944 --- [superbet-service] [main] com.example.demo.DemoApplication         : Started DemoApplication in 5.089 seconds (process running for 5.57)
-2025-01-06T02:53:02.386+02:00  INFO 13944 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
-2025-01-06T02:53:02.387+02:00  INFO 13944 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-2025-01-06T02:53:02.387+02:00  INFO 13944 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
-2025-01-06T02:53:02.549+02:00  INFO 13944 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
-2025-01-06T02:53:02.966+02:00  INFO 13944 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
-2025-01-06T02:53:02.968+02:00  INFO 13944 --- [superbet-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-01-06T02:53:02.981+02:00  INFO 13944 --- [superbet-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-01-06T02:53:03.001+02:00  INFO 13944 --- [superbet-service] [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
-2025-01-06T02:53:03.002+02:00  INFO 13944 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
-2025-01-06T02:53:03.003+02:00  INFO 13944 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-2025-01-06T02:53:03.003+02:00  INFO 13944 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
-2025-01-06T02:53:03.006+02:00  INFO 13944 --- [superbet-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-01-06T02:53:03.009+02:00  INFO 13944 --- [superbet-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-01-06T02:53:03.033+02:00  INFO 13944 --- [superbet-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-11T18:35:36.233+02:00  INFO 13864 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-01-11T18:35:36.235+02:00  INFO 13864 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2025-01-11T18:35:36.235+02:00  INFO 13864 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@257b6c58
+2025-01-11T18:35:36.396+02:00  INFO 13864 --- [superbet-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-01-11T18:35:36.404+02:00  INFO 13864 --- [superbet-service] [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-01-11T18:35:36.525+02:00  INFO 13864 --- [superbet-service] [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#7612116b:0/SimpleConnection@5516ee5 [delegate=amqp://guest@127.0.0.1:5672/, localPort=62078]
+2025-01-11T18:35:36.576+02:00  INFO 13864 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (superbetQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T18:35:36.577+02:00  INFO 13864 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (unibetQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T18:35:36.578+02:00  INFO 13864 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (unibetResponseQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T18:35:36.682+02:00  INFO 13864 --- [superbet-service] [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2025-01-11T18:35:36.683+02:00  INFO 13864 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-01-11T18:35:36.706+02:00  INFO 13864 --- [superbet-service] [main] com.example.demo.DemoApplication         : Started DemoApplication in 11.469 seconds (process running for 12.735)
+2025-01-11T18:38:22.511+02:00  INFO 13864 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-01-11T18:38:22.513+02:00  INFO 13864 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-01-11T18:38:22.514+02:00  INFO 13864 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-01-11T18:38:22.682+02:00  INFO 13864 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-01-11T18:38:23.485+02:00  INFO 13864 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-01-11T18:38:23.504+02:00  INFO 13864 --- [superbet-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-11T18:38:23.528+02:00  INFO 13864 --- [superbet-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-11T18:38:23.559+02:00  INFO 13864 --- [superbet-service] [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2025-01-11T18:38:23.560+02:00  INFO 13864 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-01-11T18:38:23.561+02:00  INFO 13864 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-01-11T18:38:23.562+02:00  INFO 13864 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-01-11T18:38:23.567+02:00  INFO 13864 --- [superbet-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-11T18:38:23.572+02:00  INFO 13864 --- [superbet-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-11T18:38:23.592+02:00  INFO 13864 --- [superbet-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-11T19:07:48.021+02:00  INFO 22796 --- [superbet-service] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.2 with PID 22796 (C:\Users\crist\Downloads\demo\demo\target\classes started by Cristi in C:\Users\crist\Downloads\demo\demo)
+2025-01-11T19:07:48.024+02:00  INFO 22796 --- [superbet-service] [main] com.example.demo.DemoApplication         : The following 1 profile is active: "superbet"
+2025-01-11T19:07:48.919+02:00  INFO 22796 --- [superbet-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-11T19:07:48.980+02:00  INFO 22796 --- [superbet-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 0 JPA repository interfaces.
+2025-01-11T19:07:49.802+02:00  INFO 22796 --- [superbet-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-01-11T19:07:49.823+02:00  INFO 22796 --- [superbet-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-11T19:07:49.824+02:00  INFO 22796 --- [superbet-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-11T19:07:49.908+02:00  INFO 22796 --- [superbet-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-11T19:07:49.908+02:00  INFO 22796 --- [superbet-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1811 ms
+2025-01-11T19:07:50.096+02:00  INFO 22796 --- [superbet-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-11T19:07:50.159+02:00  INFO 22796 --- [superbet-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-11T19:07:50.203+02:00  INFO 22796 --- [superbet-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-11T19:07:50.609+02:00  INFO 22796 --- [superbet-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-11T19:07:50.676+02:00  INFO 22796 --- [superbet-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-11T19:07:50.907+02:00  INFO 22796 --- [superbet-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ef2b8e5
+2025-01-11T19:07:50.910+02:00  INFO 22796 --- [superbet-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-11T19:07:50.974+02:00  WARN 22796 --- [superbet-service] [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-01-11T19:07:51.021+02:00  INFO 22796 --- [superbet-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 5.5.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-11T19:07:51.428+02:00  INFO 22796 --- [superbet-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-11T19:07:51.434+02:00  INFO 22796 --- [superbet-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-11T19:07:51.830+02:00  WARN 22796 --- [superbet-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-11T19:07:52.290+02:00  INFO 22796 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2025-01-11T19:07:52.314+02:00  INFO 22796 --- [superbet-service] [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-01-11T19:07:52.315+02:00  INFO 22796 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2025-01-11T19:07:52.316+02:00  INFO 22796 --- [superbet-service] [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2025-01-11T19:07:52.318+02:00  INFO 22796 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-01-11T19:07:52.319+02:00  INFO 22796 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-01-11T19:07:52.319+02:00  INFO 22796 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2025-01-11T19:07:52.319+02:00  INFO 22796 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3a17acd4
+2025-01-11T19:07:52.371+02:00  WARN 22796 --- [superbet-service] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'rabbitListenerContainerFactory' is expected to be of type 'org.springframework.amqp.rabbit.listener.RabbitListenerContainerFactory' but was actually of type 'com.example.demo.config.RabbitListenerContainerFactory$$SpringCGLIB$$0'
+2025-01-11T19:07:52.372+02:00  INFO 22796 --- [superbet-service] [main] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2025-01-11T19:07:52.372+02:00  INFO 22796 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-01-11T19:07:52.373+02:00  INFO 22796 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-01-11T19:07:52.373+02:00  INFO 22796 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-01-11T19:07:52.381+02:00  INFO 22796 --- [superbet-service] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-11T19:07:52.384+02:00  INFO 22796 --- [superbet-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-11T19:07:52.394+02:00  INFO 22796 --- [superbet-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-11T19:07:52.397+02:00  INFO 22796 --- [superbet-service] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-01-11T19:07:52.412+02:00  INFO 22796 --- [superbet-service] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-01-11T19:07:52.435+02:00 ERROR 22796 --- [superbet-service] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'rabbitListenerContainerFactory' is expected to be of type 'org.springframework.amqp.rabbit.listener.RabbitListenerContainerFactory' but was actually of type 'com.example.demo.config.RabbitListenerContainerFactory$$SpringCGLIB$$0'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:421) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:402) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.amqp.rabbit.listener.RabbitListenerEndpointRegistrar.resolveContainerFactory(RabbitListenerEndpointRegistrar.java:218) ~[spring-rabbit-3.2.1.jar:3.2.1]
+	at org.springframework.amqp.rabbit.listener.RabbitListenerEndpointRegistrar.registerAllEndpoints(RabbitListenerEndpointRegistrar.java:200) ~[spring-rabbit-3.2.1.jar:3.2.1]
+	at org.springframework.amqp.rabbit.listener.RabbitListenerEndpointRegistrar.afterPropertiesSet(RabbitListenerEndpointRegistrar.java:188) ~[spring-rabbit-3.2.1.jar:3.2.1]
+	at org.springframework.amqp.rabbit.annotation.RabbitListenerAnnotationBeanPostProcessor.afterSingletonsInstantiated(RabbitListenerAnnotationBeanPostProcessor.java:292) ~[spring-rabbit-3.2.1.jar:3.2.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1057) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.1.jar:3.4.1]
+	at com.example.demo.DemoApplication.main(DemoApplication.java:10) ~[classes/:na]
+
+2025-01-11T19:09:44.952+02:00  INFO 32244 --- [superbet-service] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.2 with PID 32244 (C:\Users\crist\Downloads\demo\demo\target\classes started by Cristi in C:\Users\crist\Downloads\demo\demo)
+2025-01-11T19:09:44.955+02:00  INFO 32244 --- [superbet-service] [main] com.example.demo.DemoApplication         : The following 1 profile is active: "superbet"
+2025-01-11T19:09:45.953+02:00  INFO 32244 --- [superbet-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-11T19:09:45.982+02:00  INFO 32244 --- [superbet-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2025-01-11T19:09:46.982+02:00  INFO 32244 --- [superbet-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-01-11T19:09:47.024+02:00  INFO 32244 --- [superbet-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-11T19:09:47.025+02:00  INFO 32244 --- [superbet-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-11T19:09:47.148+02:00  INFO 32244 --- [superbet-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-11T19:09:47.149+02:00  INFO 32244 --- [superbet-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2131 ms
+2025-01-11T19:09:47.334+02:00  INFO 32244 --- [superbet-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-11T19:09:47.402+02:00  INFO 32244 --- [superbet-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-11T19:09:47.449+02:00  INFO 32244 --- [superbet-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-11T19:09:47.866+02:00  INFO 32244 --- [superbet-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-11T19:09:47.904+02:00  INFO 32244 --- [superbet-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-11T19:09:48.112+02:00  INFO 32244 --- [superbet-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ef2b8e5
+2025-01-11T19:09:48.115+02:00  INFO 32244 --- [superbet-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-11T19:09:48.177+02:00  WARN 32244 --- [superbet-service] [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-01-11T19:09:48.205+02:00  INFO 32244 --- [superbet-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 5.5.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-11T19:09:48.631+02:00  INFO 32244 --- [superbet-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-11T19:09:48.640+02:00  INFO 32244 --- [superbet-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-11T19:09:49.043+02:00  WARN 32244 --- [superbet-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-11T19:09:49.606+02:00  INFO 32244 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2025-01-11T19:09:49.635+02:00  INFO 32244 --- [superbet-service] [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-01-11T19:09:49.636+02:00  INFO 32244 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2025-01-11T19:09:49.638+02:00  INFO 32244 --- [superbet-service] [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2025-01-11T19:09:49.642+02:00  INFO 32244 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-01-11T19:09:49.644+02:00  INFO 32244 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-01-11T19:09:49.644+02:00  INFO 32244 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2025-01-11T19:09:49.645+02:00  INFO 32244 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5cdc8499
+2025-01-11T19:09:49.769+02:00  INFO 32244 --- [superbet-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-01-11T19:09:49.774+02:00  INFO 32244 --- [superbet-service] [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-01-11T19:09:49.840+02:00  INFO 32244 --- [superbet-service] [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#433ae0b0:0/SimpleConnection@2f2f92f [delegate=amqp://guest@127.0.0.1:5672/, localPort=49352]
+2025-01-11T19:09:49.865+02:00  INFO 32244 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (superbetQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:09:49.866+02:00  INFO 32244 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (unibetQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:09:49.866+02:00  INFO 32244 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (unibetResponseQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:09:49.867+02:00  INFO 32244 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (superbetWorkerQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:09:49.867+02:00  INFO 32244 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (unibetWorkerQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:09:49.994+02:00  INFO 32244 --- [superbet-service] [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2025-01-11T19:09:49.994+02:00  INFO 32244 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-01-11T19:09:50.005+02:00  INFO 32244 --- [superbet-service] [main] com.example.demo.DemoApplication         : Started DemoApplication in 5.727 seconds (process running for 6.207)
+2025-01-11T19:10:07.880+02:00  INFO 32244 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-01-11T19:10:07.881+02:00  INFO 32244 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-01-11T19:10:07.883+02:00  INFO 32244 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-01-11T19:10:07.883+02:00  INFO 32244 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-4] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-01-11T19:10:07.902+02:00  WARN 32244 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-3] o.s.a.r.l.SimpleMessageListenerContainer : Rejecting received message(s) because the listener container has been stopped: (Body:'7229691' MessageProperties [headers={}, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=, receivedRoutingKey=superbetWorkerQueue, deliveryTag=116, consumerTag=amq.ctag--b6mv43baAwEvDG3C0vGCg, consumerQueue=superbetWorkerQueue])
+2025-01-11T19:10:07.912+02:00  WARN 32244 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-1] o.s.a.r.l.SimpleMessageListenerContainer : Rejecting received message(s) because the listener container has been stopped: (Body:'7229621' MessageProperties [headers={}, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=, receivedRoutingKey=superbetWorkerQueue, deliveryTag=111, consumerTag=amq.ctag-xlBNrZz8f1QMnJOh2Phgcw, consumerQueue=superbetWorkerQueue])
+2025-01-11T19:10:07.944+02:00  WARN 32244 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2] o.s.a.r.l.SimpleMessageListenerContainer : Rejecting received message(s) because the listener container has been stopped: (Body:'7229705' MessageProperties [headers={}, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=, receivedRoutingKey=superbetWorkerQueue, deliveryTag=119, consumerTag=amq.ctag-IebsXanbXLE9vLJdzLWKig, consumerQueue=superbetWorkerQueue])
+2025-01-11T19:10:07.945+02:00  INFO 32244 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-4] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-01-11T19:10:08.008+02:00  INFO 32244 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-01-11T19:10:08.011+02:00  INFO 32244 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-01-11T19:10:08.012+02:00  INFO 32244 --- [superbet-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-11T19:10:08.026+02:00  INFO 32244 --- [superbet-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-11T19:10:08.035+02:00  INFO 32244 --- [superbet-service] [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2025-01-11T19:10:08.035+02:00  INFO 32244 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-01-11T19:10:08.036+02:00  INFO 32244 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-01-11T19:10:08.036+02:00  INFO 32244 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-01-11T19:10:08.040+02:00  INFO 32244 --- [superbet-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-11T19:10:08.043+02:00  INFO 32244 --- [superbet-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-11T19:10:08.052+02:00  INFO 32244 --- [superbet-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-11T19:12:25.120+02:00  INFO 8344 --- [superbet-service] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.2 with PID 8344 (C:\Users\crist\Downloads\demo\demo\target\classes started by Cristi in C:\Users\crist\Downloads\demo\demo)
+2025-01-11T19:12:25.123+02:00  INFO 8344 --- [superbet-service] [main] com.example.demo.DemoApplication         : The following 1 profile is active: "superbet"
+2025-01-11T19:12:26.024+02:00  INFO 8344 --- [superbet-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-11T19:12:26.057+02:00  INFO 8344 --- [superbet-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 0 JPA repository interfaces.
+2025-01-11T19:12:26.758+02:00  INFO 8344 --- [superbet-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-01-11T19:12:26.793+02:00  INFO 8344 --- [superbet-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-11T19:12:26.793+02:00  INFO 8344 --- [superbet-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-11T19:12:26.865+02:00  INFO 8344 --- [superbet-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-11T19:12:26.866+02:00  INFO 8344 --- [superbet-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1678 ms
+2025-01-11T19:12:27.051+02:00  INFO 8344 --- [superbet-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-11T19:12:27.117+02:00  INFO 8344 --- [superbet-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-11T19:12:27.160+02:00  INFO 8344 --- [superbet-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-11T19:12:27.527+02:00  INFO 8344 --- [superbet-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-11T19:12:27.577+02:00  INFO 8344 --- [superbet-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-11T19:12:27.762+02:00  INFO 8344 --- [superbet-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@22c8ee48
+2025-01-11T19:12:27.765+02:00  INFO 8344 --- [superbet-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-11T19:12:27.828+02:00  WARN 8344 --- [superbet-service] [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-01-11T19:12:27.852+02:00  INFO 8344 --- [superbet-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 5.5.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-11T19:12:28.300+02:00  INFO 8344 --- [superbet-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-11T19:12:28.306+02:00  INFO 8344 --- [superbet-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-11T19:12:28.744+02:00  WARN 8344 --- [superbet-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-11T19:12:29.286+02:00  INFO 8344 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2025-01-11T19:12:29.299+02:00  INFO 8344 --- [superbet-service] [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-01-11T19:12:29.299+02:00  INFO 8344 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2025-01-11T19:12:29.301+02:00  INFO 8344 --- [superbet-service] [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2025-01-11T19:12:29.303+02:00  INFO 8344 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-01-11T19:12:29.303+02:00  INFO 8344 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-01-11T19:12:29.304+02:00  INFO 8344 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2025-01-11T19:12:29.304+02:00  INFO 8344 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@58b5d5fc
+2025-01-11T19:12:29.406+02:00  INFO 8344 --- [superbet-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-01-11T19:12:29.410+02:00  INFO 8344 --- [superbet-service] [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-01-11T19:12:29.471+02:00  INFO 8344 --- [superbet-service] [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#476c137b:0/SimpleConnection@5cba474f [delegate=amqp://guest@127.0.0.1:5672/, localPort=49375]
+2025-01-11T19:12:29.494+02:00  INFO 8344 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (superbetQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:12:29.495+02:00  INFO 8344 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (unibetQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:12:29.495+02:00  INFO 8344 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (unibetResponseQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:12:29.496+02:00  INFO 8344 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (superbetWorkerQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:12:29.496+02:00  INFO 8344 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (unibetWorkerQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:12:29.564+02:00  INFO 8344 --- [superbet-service] [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2025-01-11T19:12:29.564+02:00  INFO 8344 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-01-11T19:12:29.579+02:00  INFO 8344 --- [superbet-service] [main] com.example.demo.DemoApplication         : Started DemoApplication in 5.046 seconds (process running for 5.541)
+2025-01-11T19:13:06.355+02:00  INFO 8344 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-01-11T19:13:06.356+02:00  INFO 8344 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-01-11T19:13:06.357+02:00  INFO 8344 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-4] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-01-11T19:13:06.357+02:00  INFO 8344 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-01-11T19:13:06.416+02:00  WARN 8344 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-3] o.s.a.r.l.SimpleMessageListenerContainer : Rejecting received message(s) because the listener container has been stopped: (Body:'7229499' MessageProperties [headers={}, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=, receivedRoutingKey=superbetWorkerQueue, deliveryTag=190, consumerTag=amq.ctag-wWBByQoDb0ZHO2jOuDvJrw, consumerQueue=superbetWorkerQueue])
+2025-01-11T19:13:06.416+02:00  WARN 8344 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2] o.s.a.r.l.SimpleMessageListenerContainer : Rejecting received message(s) because the listener container has been stopped: (Body:'7229495' MessageProperties [headers={}, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=, receivedRoutingKey=superbetWorkerQueue, deliveryTag=190, consumerTag=amq.ctag-XZRLZzyT8NyuSr-Jw5yfYQ, consumerQueue=superbetWorkerQueue])
+2025-01-11T19:13:06.416+02:00  WARN 8344 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-1] o.s.a.r.l.SimpleMessageListenerContainer : Rejecting received message(s) because the listener container has been stopped: (Body:'7229549' MessageProperties [headers={}, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=, receivedRoutingKey=superbetWorkerQueue, deliveryTag=270, consumerTag=amq.ctag-muzAHkISyzenikGiiHrg4Q, consumerQueue=superbetWorkerQueue])
+2025-01-11T19:13:06.426+02:00  INFO 8344 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-4] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-01-11T19:13:06.689+02:00  INFO 8344 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-01-11T19:13:06.689+02:00  INFO 8344 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-01-11T19:13:06.691+02:00  INFO 8344 --- [superbet-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-11T19:13:06.704+02:00  INFO 8344 --- [superbet-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-11T19:13:06.712+02:00  INFO 8344 --- [superbet-service] [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2025-01-11T19:13:06.712+02:00  INFO 8344 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-01-11T19:13:06.713+02:00  INFO 8344 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-01-11T19:13:06.713+02:00  INFO 8344 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-01-11T19:13:06.716+02:00  INFO 8344 --- [superbet-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-11T19:13:06.720+02:00  INFO 8344 --- [superbet-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-11T19:13:06.730+02:00  INFO 8344 --- [superbet-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-11T19:14:28.460+02:00  INFO 29128 --- [superbet-service] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.2 with PID 29128 (C:\Users\crist\Downloads\demo\demo\target\classes started by Cristi in C:\Users\crist\Downloads\demo\demo)
+2025-01-11T19:14:28.463+02:00  INFO 29128 --- [superbet-service] [main] com.example.demo.DemoApplication         : The following 1 profile is active: "superbet"
+2025-01-11T19:14:29.388+02:00  INFO 29128 --- [superbet-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-11T19:14:29.441+02:00  INFO 29128 --- [superbet-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 0 JPA repository interfaces.
+2025-01-11T19:14:30.179+02:00  INFO 29128 --- [superbet-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-01-11T19:14:30.200+02:00  INFO 29128 --- [superbet-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-11T19:14:30.200+02:00  INFO 29128 --- [superbet-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-11T19:14:30.277+02:00  INFO 29128 --- [superbet-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-11T19:14:30.278+02:00  INFO 29128 --- [superbet-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1745 ms
+2025-01-11T19:14:30.464+02:00  INFO 29128 --- [superbet-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-11T19:14:30.525+02:00  INFO 29128 --- [superbet-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-11T19:14:30.565+02:00  INFO 29128 --- [superbet-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-11T19:14:30.962+02:00  INFO 29128 --- [superbet-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-11T19:14:31.001+02:00  INFO 29128 --- [superbet-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-11T19:14:31.269+02:00  INFO 29128 --- [superbet-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ef2b8e5
+2025-01-11T19:14:31.272+02:00  INFO 29128 --- [superbet-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-11T19:14:31.337+02:00  WARN 29128 --- [superbet-service] [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-01-11T19:14:31.364+02:00  INFO 29128 --- [superbet-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 5.5.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-11T19:14:31.742+02:00  INFO 29128 --- [superbet-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-11T19:14:31.749+02:00  INFO 29128 --- [superbet-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-11T19:14:32.157+02:00  WARN 29128 --- [superbet-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-11T19:14:32.627+02:00  INFO 29128 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2025-01-11T19:14:32.641+02:00  INFO 29128 --- [superbet-service] [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-01-11T19:14:32.641+02:00  INFO 29128 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2025-01-11T19:14:32.642+02:00  INFO 29128 --- [superbet-service] [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2025-01-11T19:14:32.644+02:00  INFO 29128 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-01-11T19:14:32.645+02:00  INFO 29128 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-01-11T19:14:32.645+02:00  INFO 29128 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2025-01-11T19:14:32.646+02:00  INFO 29128 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@8e3449e
+2025-01-11T19:14:32.752+02:00  INFO 29128 --- [superbet-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-01-11T19:14:32.756+02:00  INFO 29128 --- [superbet-service] [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-01-11T19:14:32.815+02:00  INFO 29128 --- [superbet-service] [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#7af9595d:0/SimpleConnection@3e0327dd [delegate=amqp://guest@127.0.0.1:5672/, localPort=49486]
+2025-01-11T19:14:32.840+02:00  INFO 29128 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (superbetQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:14:32.841+02:00  INFO 29128 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (unibetQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:14:32.841+02:00  INFO 29128 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (unibetResponseQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:14:32.841+02:00  INFO 29128 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (superbetWorkerQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:14:32.842+02:00  INFO 29128 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (unibetWorkerQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:14:32.928+02:00  INFO 29128 --- [superbet-service] [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2025-01-11T19:14:32.929+02:00  INFO 29128 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-01-11T19:14:32.946+02:00  INFO 29128 --- [superbet-service] [main] com.example.demo.DemoApplication         : Started DemoApplication in 5.059 seconds (process running for 5.548)
+2025-01-11T19:14:55.710+02:00  INFO 29128 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-01-11T19:14:55.712+02:00  INFO 29128 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-01-11T19:14:55.716+02:00  INFO 29128 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-4] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-01-11T19:14:55.716+02:00  INFO 29128 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-01-11T19:14:55.932+02:00  INFO 29128 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-01-11T19:14:55.932+02:00  INFO 29128 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-01-11T19:14:56.244+02:00  INFO 29128 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-4] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-01-11T19:14:56.246+02:00  INFO 29128 --- [superbet-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-11T19:14:56.266+02:00  INFO 29128 --- [superbet-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-11T19:14:56.277+02:00  INFO 29128 --- [superbet-service] [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2025-01-11T19:14:56.278+02:00  INFO 29128 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-01-11T19:14:56.278+02:00  INFO 29128 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-01-11T19:14:56.279+02:00  INFO 29128 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-01-11T19:14:56.283+02:00  INFO 29128 --- [superbet-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-11T19:14:56.288+02:00  INFO 29128 --- [superbet-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-11T19:14:56.300+02:00  INFO 29128 --- [superbet-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-11T19:15:08.583+02:00  INFO 6168 --- [superbet-service] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.2 with PID 6168 (C:\Users\crist\Downloads\demo\demo\target\classes started by Cristi in C:\Users\crist\Downloads\demo\demo)
+2025-01-11T19:15:08.586+02:00  INFO 6168 --- [superbet-service] [main] com.example.demo.DemoApplication         : The following 1 profile is active: "superbet"
+2025-01-11T19:15:09.447+02:00  INFO 6168 --- [superbet-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-11T19:15:09.477+02:00  INFO 6168 --- [superbet-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2025-01-11T19:15:10.169+02:00  INFO 6168 --- [superbet-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-01-11T19:15:10.189+02:00  INFO 6168 --- [superbet-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-11T19:15:10.190+02:00  INFO 6168 --- [superbet-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-11T19:15:10.267+02:00  INFO 6168 --- [superbet-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-11T19:15:10.268+02:00  INFO 6168 --- [superbet-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1621 ms
+2025-01-11T19:15:10.449+02:00  INFO 6168 --- [superbet-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-11T19:15:10.516+02:00  INFO 6168 --- [superbet-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2025-01-11T19:15:10.562+02:00  INFO 6168 --- [superbet-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-01-11T19:15:10.934+02:00  INFO 6168 --- [superbet-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-11T19:15:10.972+02:00  INFO 6168 --- [superbet-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-11T19:15:11.174+02:00  INFO 6168 --- [superbet-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ef2b8e5
+2025-01-11T19:15:11.177+02:00  INFO 6168 --- [superbet-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-11T19:15:11.251+02:00  WARN 6168 --- [superbet-service] [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2025-01-11T19:15:11.275+02:00  INFO 6168 --- [superbet-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 5.5.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-01-11T19:15:11.794+02:00  INFO 6168 --- [superbet-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-11T19:15:11.803+02:00  INFO 6168 --- [superbet-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-11T19:15:12.235+02:00  WARN 6168 --- [superbet-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-11T19:15:12.717+02:00  INFO 6168 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2025-01-11T19:15:12.747+02:00  INFO 6168 --- [superbet-service] [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-01-11T19:15:12.748+02:00  INFO 6168 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2025-01-11T19:15:12.750+02:00  INFO 6168 --- [superbet-service] [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2025-01-11T19:15:12.753+02:00  INFO 6168 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-01-11T19:15:12.755+02:00  INFO 6168 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-01-11T19:15:12.755+02:00  INFO 6168 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2025-01-11T19:15:12.756+02:00  INFO 6168 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@8e3449e
+2025-01-11T19:15:12.898+02:00  INFO 6168 --- [superbet-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-01-11T19:15:12.903+02:00  INFO 6168 --- [superbet-service] [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-01-11T19:15:12.962+02:00  INFO 6168 --- [superbet-service] [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#7af9595d:0/SimpleConnection@3e0327dd [delegate=amqp://guest@127.0.0.1:5672/, localPort=49506]
+2025-01-11T19:15:13.013+02:00  INFO 6168 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (superbetQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:15:13.014+02:00  INFO 6168 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (unibetQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:15:13.015+02:00  INFO 6168 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (unibetResponseQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:15:13.016+02:00  INFO 6168 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (superbetWorkerQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:15:13.017+02:00  INFO 6168 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (unibetWorkerQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:15:13.156+02:00  INFO 6168 --- [superbet-service] [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2025-01-11T19:15:13.157+02:00  INFO 6168 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-01-11T19:15:13.184+02:00  INFO 6168 --- [superbet-service] [main] com.example.demo.DemoApplication         : Started DemoApplication in 5.224 seconds (process running for 5.694)
+2025-01-11T19:15:45.762+02:00  INFO 6168 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-01-11T19:15:45.764+02:00  INFO 6168 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-01-11T19:15:45.768+02:00  INFO 6168 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-01-11T19:15:45.768+02:00  INFO 6168 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-4] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-01-11T19:15:45.810+02:00  WARN 6168 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-1] o.s.a.r.l.SimpleMessageListenerContainer : Rejecting received message(s) because the listener container has been stopped: (Body:'6803024' MessageProperties [headers={}, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=, receivedRoutingKey=superbetWorkerQueue, deliveryTag=142, consumerTag=amq.ctag-6GDRhfkSdapTTdp7drmUkg, consumerQueue=superbetWorkerQueue])
+2025-01-11T19:15:45.810+02:00  WARN 6168 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2] o.s.a.r.l.SimpleMessageListenerContainer : Rejecting received message(s) because the listener container has been stopped: (Body:'6803025' MessageProperties [headers={}, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=, receivedRoutingKey=superbetWorkerQueue, deliveryTag=142, consumerTag=amq.ctag-YTpDhU-VAMc1sFLYeMPtww, consumerQueue=superbetWorkerQueue])
+2025-01-11T19:15:45.810+02:00  WARN 6168 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-3] o.s.a.r.l.SimpleMessageListenerContainer : Rejecting received message(s) because the listener container has been stopped: (Body:'7174128' MessageProperties [headers={}, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=, receivedRoutingKey=superbetWorkerQueue, deliveryTag=141, consumerTag=amq.ctag-PEmzc6JEcfSlXgOrD-KXdw, consumerQueue=superbetWorkerQueue])
+2025-01-11T19:15:45.821+02:00  INFO 6168 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-4] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-01-11T19:15:46.164+02:00  INFO 6168 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-01-11T19:15:46.185+02:00  INFO 6168 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-01-11T19:15:46.186+02:00  INFO 6168 --- [superbet-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-11T19:15:46.200+02:00  INFO 6168 --- [superbet-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-11T19:15:46.210+02:00  INFO 6168 --- [superbet-service] [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2025-01-11T19:15:46.210+02:00  INFO 6168 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-01-11T19:15:46.210+02:00  INFO 6168 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-01-11T19:15:46.211+02:00  INFO 6168 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-01-11T19:15:46.214+02:00  INFO 6168 --- [superbet-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-11T19:15:46.217+02:00  INFO 6168 --- [superbet-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-11T19:15:46.225+02:00  INFO 6168 --- [superbet-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-01-11T19:30:59.706+02:00  INFO 9476 --- [superbet-service] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.2 with PID 9476 (C:\Users\crist\Downloads\demo\demo\target\classes started by Cristi in C:\Users\crist\Downloads\demo\demo)
+2025-01-11T19:30:59.709+02:00  INFO 9476 --- [superbet-service] [main] com.example.demo.DemoApplication         : The following 1 profile is active: "superbet"
+2025-01-11T19:31:01.179+02:00  INFO 9476 --- [superbet-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-01-11T19:31:01.200+02:00  INFO 9476 --- [superbet-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-11T19:31:01.201+02:00  INFO 9476 --- [superbet-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-11T19:31:01.279+02:00  INFO 9476 --- [superbet-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-11T19:31:01.280+02:00  INFO 9476 --- [superbet-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1506 ms
+2025-01-11T19:31:02.019+02:00  INFO 9476 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2025-01-11T19:31:02.031+02:00  INFO 9476 --- [superbet-service] [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-01-11T19:31:02.032+02:00  INFO 9476 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2025-01-11T19:31:02.033+02:00  INFO 9476 --- [superbet-service] [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2025-01-11T19:31:02.034+02:00  INFO 9476 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-01-11T19:31:02.035+02:00  INFO 9476 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-01-11T19:31:02.036+02:00  INFO 9476 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2025-01-11T19:31:02.036+02:00  INFO 9476 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2f9a10df
+2025-01-11T19:31:02.141+02:00  INFO 9476 --- [superbet-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-01-11T19:31:02.147+02:00  INFO 9476 --- [superbet-service] [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-01-11T19:31:02.217+02:00  INFO 9476 --- [superbet-service] [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#609e57da:0/SimpleConnection@5657967b [delegate=amqp://guest@127.0.0.1:5672/, localPort=49740]
+2025-01-11T19:31:02.226+02:00  INFO 9476 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (superbetQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:31:02.226+02:00  INFO 9476 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (unibetResponseQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:31:02.227+02:00  INFO 9476 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (superbetWorkerQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:31:02.227+02:00  INFO 9476 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (unibetWorkerQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:31:02.311+02:00  INFO 9476 --- [superbet-service] [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2025-01-11T19:31:02.312+02:00  INFO 9476 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-01-11T19:31:02.326+02:00  INFO 9476 --- [superbet-service] [main] com.example.demo.DemoApplication         : Started DemoApplication in 3.217 seconds (process running for 3.703)
+2025-01-11T19:31:38.311+02:00  INFO 9476 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-01-11T19:31:38.312+02:00  INFO 9476 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-01-11T19:31:38.315+02:00  INFO 9476 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-01-11T19:31:38.315+02:00  INFO 9476 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-4] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-01-11T19:31:38.332+02:00  INFO 9476 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-01-11T19:31:38.332+02:00  INFO 9476 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-01-11T19:31:38.381+02:00  WARN 9476 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-3] o.s.a.r.l.SimpleMessageListenerContainer : Rejecting received message(s) because the listener container has been stopped: (Body:'7229495' MessageProperties [headers={}, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=, receivedRoutingKey=superbetWorkerQueue, deliveryTag=300, consumerTag=amq.ctag-VO3GVG2r8hI22jwUfzEseg, consumerQueue=superbetWorkerQueue])
+2025-01-11T19:31:38.381+02:00  WARN 9476 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-1] o.s.a.r.l.SimpleMessageListenerContainer : Rejecting received message(s) because the listener container has been stopped: (Body:'7279438' MessageProperties [headers={}, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=, receivedRoutingKey=superbetWorkerQueue, deliveryTag=322, consumerTag=amq.ctag-16uHV_qXuLVrlb12aV_qKw, consumerQueue=superbetWorkerQueue])
+2025-01-11T19:31:38.381+02:00  WARN 9476 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2] o.s.a.r.l.SimpleMessageListenerContainer : Rejecting received message(s) because the listener container has been stopped: (Body:'7284793' MessageProperties [headers={}, contentType=text/plain, contentEncoding=UTF-8, contentLength=0, receivedDeliveryMode=PERSISTENT, priority=0, redelivered=false, receivedExchange=, receivedRoutingKey=superbetWorkerQueue, deliveryTag=322, consumerTag=amq.ctag-_AVZFNEqCGwqPp4i6S1_Gw, consumerQueue=superbetWorkerQueue])
+2025-01-11T19:31:38.392+02:00  INFO 9476 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-4] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-01-11T19:31:38.395+02:00  INFO 9476 --- [superbet-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-11T19:31:38.410+02:00  INFO 9476 --- [superbet-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-11T19:31:38.421+02:00  INFO 9476 --- [superbet-service] [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2025-01-11T19:31:38.422+02:00  INFO 9476 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-01-11T19:31:38.423+02:00  INFO 9476 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-01-11T19:31:38.424+02:00  INFO 9476 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-01-11T19:32:33.308+02:00  INFO 15548 --- [superbet-service] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.2 with PID 15548 (C:\Users\crist\Downloads\demo\demo\target\classes started by Cristi in C:\Users\crist\Downloads\demo\demo)
+2025-01-11T19:32:33.311+02:00  INFO 15548 --- [superbet-service] [main] com.example.demo.DemoApplication         : The following 1 profile is active: "superbet"
+2025-01-11T19:32:34.750+02:00  INFO 15548 --- [superbet-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-01-11T19:32:34.769+02:00  INFO 15548 --- [superbet-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-11T19:32:34.770+02:00  INFO 15548 --- [superbet-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-11T19:32:34.847+02:00  INFO 15548 --- [superbet-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-11T19:32:34.848+02:00  INFO 15548 --- [superbet-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1484 ms
+2025-01-11T19:32:35.533+02:00  INFO 15548 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2025-01-11T19:32:35.558+02:00  INFO 15548 --- [superbet-service] [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-01-11T19:32:35.560+02:00  INFO 15548 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2025-01-11T19:32:35.563+02:00  INFO 15548 --- [superbet-service] [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2025-01-11T19:32:35.567+02:00  INFO 15548 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-01-11T19:32:35.570+02:00  INFO 15548 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-01-11T19:32:35.570+02:00  INFO 15548 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2025-01-11T19:32:35.571+02:00  INFO 15548 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2f9a10df
+2025-01-11T19:32:35.671+02:00  INFO 15548 --- [superbet-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-01-11T19:32:35.677+02:00  INFO 15548 --- [superbet-service] [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-01-11T19:32:35.745+02:00  INFO 15548 --- [superbet-service] [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#609e57da:0/SimpleConnection@5657967b [delegate=amqp://guest@127.0.0.1:5672/, localPort=49749]
+2025-01-11T19:32:35.757+02:00  INFO 15548 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (superbetQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:32:35.758+02:00  INFO 15548 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (unibetResponseQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:32:35.758+02:00  INFO 15548 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (superbetWorkerQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:32:35.759+02:00  INFO 15548 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (unibetWorkerQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:32:35.827+02:00  INFO 15548 --- [superbet-service] [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2025-01-11T19:32:35.828+02:00  INFO 15548 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-01-11T19:32:35.838+02:00  INFO 15548 --- [superbet-service] [main] com.example.demo.DemoApplication         : Started DemoApplication in 3.109 seconds (process running for 3.596)
+2025-01-11T19:33:08.225+02:00  INFO 15548 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-01-11T19:33:08.226+02:00  INFO 15548 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-01-11T19:33:08.228+02:00  INFO 15548 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-01-11T19:33:08.229+02:00  INFO 15548 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-4] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-01-11T19:33:08.840+02:00  INFO 15548 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-01-11T19:33:08.840+02:00  INFO 15548 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-01-11T19:33:09.132+02:00  INFO 15548 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-4] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-01-11T19:33:09.134+02:00  INFO 15548 --- [superbet-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-11T19:33:09.147+02:00  INFO 15548 --- [superbet-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-11T19:33:09.158+02:00  INFO 15548 --- [superbet-service] [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2025-01-11T19:33:09.159+02:00  INFO 15548 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-01-11T19:33:09.159+02:00  INFO 15548 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-01-11T19:33:09.159+02:00  INFO 15548 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-01-11T19:36:14.428+02:00  INFO 6356 --- [superbet-service] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.2 with PID 6356 (C:\Users\crist\Downloads\demo\demo\target\classes started by Cristi in C:\Users\crist\Downloads\demo\demo)
+2025-01-11T19:36:14.430+02:00  INFO 6356 --- [superbet-service] [main] com.example.demo.DemoApplication         : The following 1 profile is active: "superbet"
+2025-01-11T19:36:15.811+02:00  INFO 6356 --- [superbet-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-01-11T19:36:15.829+02:00  INFO 6356 --- [superbet-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-11T19:36:15.830+02:00  INFO 6356 --- [superbet-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-11T19:36:15.897+02:00  INFO 6356 --- [superbet-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-11T19:36:15.898+02:00  INFO 6356 --- [superbet-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1410 ms
+2025-01-11T19:36:16.569+02:00  INFO 6356 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2025-01-11T19:36:16.581+02:00  INFO 6356 --- [superbet-service] [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-01-11T19:36:16.581+02:00  INFO 6356 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2025-01-11T19:36:16.582+02:00  INFO 6356 --- [superbet-service] [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2025-01-11T19:36:16.583+02:00  INFO 6356 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-01-11T19:36:16.584+02:00  INFO 6356 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-01-11T19:36:16.584+02:00  INFO 6356 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2025-01-11T19:36:16.585+02:00  INFO 6356 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@15e1f8fe
+2025-01-11T19:36:16.678+02:00  INFO 6356 --- [superbet-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-01-11T19:36:16.683+02:00  INFO 6356 --- [superbet-service] [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-01-11T19:36:16.751+02:00  INFO 6356 --- [superbet-service] [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#609e57da:0/SimpleConnection@578a5ce8 [delegate=amqp://guest@127.0.0.1:5672/, localPort=49799]
+2025-01-11T19:36:16.759+02:00  INFO 6356 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (superbetQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:36:16.760+02:00  INFO 6356 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (unibetResponseQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:36:16.760+02:00  INFO 6356 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (superbetWorkerQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:36:16.760+02:00  INFO 6356 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (unibetWorkerQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:36:16.816+02:00  INFO 6356 --- [superbet-service] [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2025-01-11T19:36:16.816+02:00  INFO 6356 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-01-11T19:36:16.824+02:00  INFO 6356 --- [superbet-service] [main] com.example.demo.DemoApplication         : Started DemoApplication in 2.916 seconds (process running for 3.336)
+2025-01-11T19:36:29.690+02:00  INFO 6356 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-01-11T19:36:29.691+02:00  INFO 6356 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-01-11T19:36:29.693+02:00  INFO 6356 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-01-11T19:36:29.694+02:00  INFO 6356 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-4] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-01-11T19:36:29.899+02:00  INFO 6356 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-01-11T19:36:30.260+02:00  INFO 6356 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-4] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-01-11T19:36:30.261+02:00  INFO 6356 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-01-11T19:36:30.262+02:00  INFO 6356 --- [superbet-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-11T19:36:30.276+02:00  INFO 6356 --- [superbet-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-11T19:36:30.284+02:00  INFO 6356 --- [superbet-service] [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2025-01-11T19:36:30.285+02:00  INFO 6356 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-01-11T19:36:30.285+02:00  INFO 6356 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-01-11T19:36:30.286+02:00  INFO 6356 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-01-11T19:37:11.300+02:00  INFO 12576 --- [superbet-service] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.2 with PID 12576 (C:\Users\crist\Downloads\demo\demo\target\classes started by Cristi in C:\Users\crist\Downloads\demo\demo)
+2025-01-11T19:37:11.303+02:00  INFO 12576 --- [superbet-service] [main] com.example.demo.DemoApplication         : The following 1 profile is active: "superbet"
+2025-01-11T19:37:12.689+02:00  INFO 12576 --- [superbet-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-01-11T19:37:12.710+02:00  INFO 12576 --- [superbet-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-11T19:37:12.710+02:00  INFO 12576 --- [superbet-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-11T19:37:12.781+02:00  INFO 12576 --- [superbet-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-11T19:37:12.781+02:00  INFO 12576 --- [superbet-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1425 ms
+2025-01-11T19:37:13.454+02:00  INFO 12576 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2025-01-11T19:37:13.465+02:00  INFO 12576 --- [superbet-service] [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-01-11T19:37:13.466+02:00  INFO 12576 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2025-01-11T19:37:13.467+02:00  INFO 12576 --- [superbet-service] [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2025-01-11T19:37:13.468+02:00  INFO 12576 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-01-11T19:37:13.468+02:00  INFO 12576 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-01-11T19:37:13.469+02:00  INFO 12576 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2025-01-11T19:37:13.469+02:00  INFO 12576 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@44e4cb76
+2025-01-11T19:37:13.569+02:00  INFO 12576 --- [superbet-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-01-11T19:37:13.574+02:00  INFO 12576 --- [superbet-service] [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-01-11T19:37:13.647+02:00  INFO 12576 --- [superbet-service] [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#a83495d:0/SimpleConnection@578a5ce8 [delegate=amqp://guest@127.0.0.1:5672/, localPort=49817]
+2025-01-11T19:37:13.655+02:00  INFO 12576 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (superbetQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:37:13.656+02:00  INFO 12576 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (unibetResponseQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:37:13.656+02:00  INFO 12576 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (superbetWorkerQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:37:13.656+02:00  INFO 12576 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (unibetWorkerQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:37:13.712+02:00  INFO 12576 --- [superbet-service] [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2025-01-11T19:37:13.713+02:00  INFO 12576 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-01-11T19:37:13.720+02:00  INFO 12576 --- [superbet-service] [main] com.example.demo.DemoApplication         : Started DemoApplication in 2.943 seconds (process running for 3.365)
+2025-01-11T19:37:34.544+02:00  INFO 12576 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-01-11T19:37:34.544+02:00  INFO 12576 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-01-11T19:37:34.547+02:00  INFO 12576 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-01-11T19:37:34.547+02:00  INFO 12576 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-4] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-01-11T19:37:34.725+02:00  INFO 12576 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-01-11T19:37:35.539+02:00  INFO 12576 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-01-11T19:37:35.540+02:00  INFO 12576 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-4] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-01-11T19:37:35.542+02:00  INFO 12576 --- [superbet-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-11T19:37:35.556+02:00  INFO 12576 --- [superbet-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-11T19:37:35.569+02:00  INFO 12576 --- [superbet-service] [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2025-01-11T19:37:35.570+02:00  INFO 12576 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-01-11T19:37:35.570+02:00  INFO 12576 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-01-11T19:37:35.571+02:00  INFO 12576 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-01-11T19:39:49.361+02:00  INFO 24800 --- [superbet-service] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.2 with PID 24800 (C:\Users\crist\Downloads\demo\demo\target\classes started by Cristi in C:\Users\crist\Downloads\demo\demo)
+2025-01-11T19:39:49.363+02:00  INFO 24800 --- [superbet-service] [main] com.example.demo.DemoApplication         : The following 1 profile is active: "superbet"
+2025-01-11T19:39:50.706+02:00  INFO 24800 --- [superbet-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-01-11T19:39:50.723+02:00  INFO 24800 --- [superbet-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-11T19:39:50.723+02:00  INFO 24800 --- [superbet-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-11T19:39:50.790+02:00  INFO 24800 --- [superbet-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-11T19:39:50.791+02:00  INFO 24800 --- [superbet-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1372 ms
+2025-01-11T19:39:51.476+02:00  INFO 24800 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2025-01-11T19:39:51.489+02:00  INFO 24800 --- [superbet-service] [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-01-11T19:39:51.490+02:00  INFO 24800 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2025-01-11T19:39:51.491+02:00  INFO 24800 --- [superbet-service] [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2025-01-11T19:39:51.493+02:00  INFO 24800 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-01-11T19:39:51.493+02:00  INFO 24800 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-01-11T19:39:51.494+02:00  INFO 24800 --- [superbet-service] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2025-01-11T19:39:51.494+02:00  INFO 24800 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@15e1f8fe
+2025-01-11T19:39:51.586+02:00  INFO 24800 --- [superbet-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-01-11T19:39:51.591+02:00  INFO 24800 --- [superbet-service] [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2025-01-11T19:39:51.660+02:00  INFO 24800 --- [superbet-service] [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#609e57da:0/SimpleConnection@578a5ce8 [delegate=amqp://guest@127.0.0.1:5672/, localPort=49851]
+2025-01-11T19:39:51.668+02:00  INFO 24800 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (superbetQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:39:51.668+02:00  INFO 24800 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (unibetResponseQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:39:51.669+02:00  INFO 24800 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (superbetWorkerQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:39:51.669+02:00  INFO 24800 --- [superbet-service] [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (unibetWorkerQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2025-01-11T19:39:51.739+02:00  INFO 24800 --- [superbet-service] [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2025-01-11T19:39:51.739+02:00  INFO 24800 --- [superbet-service] [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-01-11T19:39:51.748+02:00  INFO 24800 --- [superbet-service] [main] com.example.demo.DemoApplication         : Started DemoApplication in 2.957 seconds (process running for 3.421)
+2025-01-11T19:40:24.898+02:00  INFO 24800 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-01-11T19:40:24.899+02:00  INFO 24800 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-01-11T19:40:24.902+02:00  INFO 24800 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-4] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2025-01-11T19:40:24.902+02:00  INFO 24800 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-01-11T19:40:24.916+02:00  INFO 24800 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-01-11T19:40:25.158+02:00  INFO 24800 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-01-11T19:40:25.158+02:00  INFO 24800 --- [superbet-service] [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-4] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2025-01-11T19:40:25.160+02:00  INFO 24800 --- [superbet-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-01-11T19:40:25.174+02:00  INFO 24800 --- [superbet-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-01-11T19:40:25.184+02:00  INFO 24800 --- [superbet-service] [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2025-01-11T19:40:25.184+02:00  INFO 24800 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-01-11T19:40:25.185+02:00  INFO 24800 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-01-11T19:40:25.185+02:00  INFO 24800 --- [superbet-service] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.

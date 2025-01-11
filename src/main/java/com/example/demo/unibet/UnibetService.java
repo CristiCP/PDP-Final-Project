@@ -2,7 +2,7 @@ package com.example.demo.unibet;
 
 import com.example.demo.MatchDetail;
 import com.example.demo.MatchProcessor;
-import com.example.demo.config.RabbitMQConfig;
+import com.example.demo.config.RabbitMQWorkerConfig;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.squareup.okhttp.OkHttpClient;
@@ -14,9 +14,6 @@ import org.springframework.stereotype.Service;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
 
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -65,41 +62,26 @@ public class UnibetService {
         if (matchProcessor.getUnibetEvents().isEmpty()) {
             return;
         }
-        fetchAndProcessMatchDetails(matchProcessor.getUnibetEvents());
+
+        for (MatchProcessor.UnibetEvent event : matchProcessor.getUnibetEvents()) {
+            UnibetWorkerTask task = new UnibetWorkerTask(event.getId(), event.getName());
+            try {
+                String message = objectMapper.writeValueAsString(task);
+                rabbitTemplate.convertAndSend(RabbitMQWorkerConfig.UNIBET_WORKER_QUEUE, message);
+                System.out.println("Published Unibet Event to Worker Queue: " + task);
+            } catch (Exception e) {
+                System.err.println("Error sending Unibet task to worker queue: " + e.getMessage());
+            }
+        }
     }
+
 
     public String getLiveMatchContent(int matchId) throws IOException {
         String url = BASE_URL + "betoffer/event/" + matchId + ".json?lang=ro_RO&market=RO&ncid=1734917551";
         return executeGetRequest(url);
     }
 
-    public void fetchAndProcessMatchDetails(List<MatchProcessor.UnibetEvent> events) {
-        ExecutorService executor = Executors.newCachedThreadPool();
-
-        for (MatchProcessor.UnibetEvent event : events) {
-            executor.submit(() -> {
-                try {
-                    String matchContent = getLiveMatchContent(Integer.parseInt(event.getId()));
-                    MatchDetail matchDetail = processMatch(event.getId(), event.getName(), matchContent);
-                    if (matchDetail != null) {
-                        rabbitTemplate.convertAndSend(RabbitMQConfig.UNIBET_RESPONSE_QUEUE, objectMapper.writeValueAsString(matchDetail));
-                    }
-                } catch (Exception e) {
-                    System.err.println("Error processing match ID " + event.getId() + ": " + e.getMessage());
-                }
-            });
-        }
-
-        executor.shutdown();
-        try {
-            executor.awaitTermination(1, TimeUnit.HOURS);
-        } catch (InterruptedException e) {
-            Thread.currentThread().interrupt();
-            System.err.println("Error waiting for tasks to complete: " + e.getMessage());
-        }
-    }
-
-    private MatchDetail processMatch(String id, String name, String jsonResponse) {
+    public MatchDetail processMatch(String id, String name, String jsonResponse) {
         try {
             JsonNode rootNode = objectMapper.readTree(jsonResponse);
             JsonNode betOffers = rootNode.get("betOffers");
@@ -125,8 +107,7 @@ public class UnibetService {
                     bets.add(criterionLabel + ": " + outcomeLabel + " @ " + odds);
                 }
             }
-            MatchDetail matchDetail = new MatchDetail(Integer.parseInt(id), name, bets);
-            return matchDetail;
+            return new MatchDetail(Integer.parseInt(id), name, bets);
         } catch (Exception e) {
             System.err.println("Error parsing live match content for event ID " + id + ": " + e.getMessage());
             return null;

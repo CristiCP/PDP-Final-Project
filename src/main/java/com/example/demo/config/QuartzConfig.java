@@ -30,7 +30,7 @@ public class QuartzConfig {
                 .forJob(fetchMatchesJobDetailSuperbet)
                 .withIdentity("fetchMatchesTriggerSuperbet")
                 .withSchedule(SimpleScheduleBuilder.simpleSchedule()
-                        .withIntervalInSeconds(60)
+                        .withIntervalInSeconds(120)
                         .repeatForever())
                 .build();
     }
@@ -51,7 +51,7 @@ public class QuartzConfig {
                 .forJob(processMatchDetailsJobDetailSuperbet)
                 .withIdentity("processMatchDetailsTriggerSuperbet")
                 .withSchedule(SimpleScheduleBuilder.simpleSchedule()
-                        .withIntervalInSeconds(30)
+                        .withIntervalInSeconds(60)
                         .repeatForever())
                 .startAt(new Date(System.currentTimeMillis() + 3000))
                 .build();
@@ -73,7 +73,7 @@ public class QuartzConfig {
                 .forJob(fetchMatchesJobDetailUnibet)
                 .withIdentity("fetchMatchesTriggerUnibet")
                 .withSchedule(SimpleScheduleBuilder.simpleSchedule()
-                        .withIntervalInSeconds(60)
+                        .withIntervalInSeconds(120)
                         .repeatForever())
                 .build();
     }
@@ -94,7 +94,7 @@ public class QuartzConfig {
                 .forJob(processMatchDetailsJobDetailUnibet)
                 .withIdentity("processMatchDetailsTriggerUnibet")
                 .withSchedule(SimpleScheduleBuilder.simpleSchedule()
-                        .withIntervalInSeconds(30)
+                        .withIntervalInSeconds(60)
                         .repeatForever())
                 .startAt(new Date(System.currentTimeMillis() + 3000))
                 .build();

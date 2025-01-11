@@ -2,7 +2,7 @@ package com.example.demo.superbet;
 
 import com.example.demo.MatchDetail;
 import com.example.demo.MatchProcessor;
-import com.example.demo.config.RabbitMQConfig;
+import com.example.demo.config.RabbitMQWorkerConfig;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.squareup.okhttp.OkHttpClient;
@@ -14,9 +14,6 @@ import org.springframework.stereotype.Service;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
 
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -63,38 +60,19 @@ public class SuperbetService {
         if (matchProcessor.getSuperbetEventIds().isEmpty()) {
             return;
         }
-        fetchAndProcessMatchDetails(matchProcessor.getSuperbetEventIds());
-    }
 
-    public void fetchAndProcessMatchDetails(List<String> matchIds) {
-        ExecutorService executor = Executors.newCachedThreadPool();
-
-        for (String matchId : matchIds) {
-            executor.submit(() -> {
-                try {
-                    String content = getMatchContent(matchId);
-                    processMatch(content);
-                } catch (Throwable e) {
-                    System.err.println("Error processing match ID " + matchId + ": " + e.getMessage());
-                }
-            });
-        }
-
-        executor.shutdown();
-        try {
-            executor.awaitTermination(1, TimeUnit.HOURS);
-        } catch (InterruptedException e) {
-            Thread.currentThread().interrupt();
-            System.err.println("Error waiting for tasks to complete: " + e.getMessage());
+        for (String eventId : matchProcessor.getSuperbetEventIds()) {
+            rabbitTemplate.convertAndSend(RabbitMQWorkerConfig.SUPERBET_WORKER_QUEUE, eventId);
+            System.out.println("Published Superbet Event ID to Worker Queue: " + eventId);
         }
     }
 
-    private String getMatchContent(String matchId) throws Throwable {
+    public String getMatchContent(String matchId) throws Throwable {
         String url = BASE_URL + "v2/ro-RO/events/" + matchId;
         return executeGetRequest(url);
     }
 
-    private void processMatch(String jsonResponse) throws IOException {
+    public MatchDetail processMatch(String jsonResponse) throws IOException {
         JsonNode rootNode = objectMapper.readTree(jsonResponse);
         JsonNode matchData = rootNode.get("data").get(0);
 
@@ -107,9 +85,7 @@ public class SuperbetService {
             bets.add(betDetails);
         }
 
-        MatchDetail matchDetail = new MatchDetail(eventId, matchName, bets);
-        String message = objectMapper.writeValueAsString(matchDetail);
-        rabbitTemplate.convertAndSend(RabbitMQConfig.SUPERBET_QUEUE, message);
+        return new MatchDetail(eventId, matchName, bets);
     }
 }
 
