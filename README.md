@@ -115,3 +115,7 @@ No Database Configuration Needed: This project does not require any database con
 - Develop the centralized Superbet Consumer to handle processed data from both Superbet and Unibet.
 - Ensure proper logging and consolidation of match details.
 - Diagram
+
+![diagram2](https://github.com/user-attachments/assets/befad711-ff53-4975-a959-35454d401476)
+
+
